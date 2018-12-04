@@ -1,0 +1,211 @@
+body{
+    background-repeat: no-repeat;
+    margin: 0;
+    display:grid;
+     
+    grid-template:repeat(4, auto) / auto 1fr; 
+    grid-template-areas: 
+        "head head head head head" 
+        "main main main main main"
+        "footer footer footer footer footer"
+        "drink drink drink drink drink"
+        "juice juice juice juice juice";
+        }
+
+header { 
+    font-size: 60px; 
+    font-family: sans-serif; 
+    color: black; 
+    text-align: center;
+    font-weight: bold;
+    grid-area: head;
+    font-style: italic;
+    }
+
+            /*STYLES FOR THE MAIN*/
+img { 
+    margin-top: -50px; }
+h2 {
+    font-size: 20px;
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-left: -200px; 
+    grid-area: main;
+    font-size: 25px;
+
+    }
+
+h3{
+   
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: -200px; 
+    grid-area: main;  
+    align-content: center: 
+    }
+
+.donuts {
+    font-size: 20px;
+    color: chocolate; 
+    margin: 0 2%;
+    margin-left: -100px; 
+    grid-area: main; 
+    display: grid;
+    grid-template: auto / repeat(3, 15%);
+    list-style-type: none; 
+    }
+
+.D {
+    font-size: 20px;
+    }
+
+
+.fancy { 
+    color: chocolate; 
+    margin-left: -100px; 
+    grid-area: main; 
+    display: grid; 
+    grid-template: auto / repeat(2, 15%);
+    list-style-type: none; 
+    }
+
+
+.F {
+    font-size: 20px;
+    }
+
+            /*PRICE LIST*/
+
+
+.baker { 
+    margin-top: -500px;
+    margin-left: 100px; 
+    font-size: 20px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    font-family: sans-serif;
+    color: black;
+    text-align: center; 
+    }
+
+.regular {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px; 
+    font-size: 20px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    font-family: sans-serif;
+    color: black;
+    text-align: center; 
+    }
+
+.NCY {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px; 
+    font-size: 20px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+
+    }
+
+.french {
+    margin-top: 100px;
+    margin-left: 100px; 
+    font-size: 20px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    font-family: sans-serif;
+    color: black;
+    text-align: center; 
+    }
+
+            /*PRICES*/
+
+.price1 {
+    margin-top:-440px;
+    margin-bottom: 90px; 
+    margin-left: 700px; 
+    font-size: 10px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #722e0d;
+    border-radius: 20px;
+    padding: 20px; 
+    width: 100px; 
+}
+
+.price2 {
+    margin-top: 0px;
+    margin-left: 700px; 
+    font-size: 10px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #722e0d;
+    border-radius: 20px;
+    padding: 20px; 
+    width: 100px;  
+    background-color: #722e0d;
+}
+
+.price3 {
+    margin-top: 60px; 
+    margin-left: 700px; 
+    font-size: 10px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #722e0d;
+    border-radius: 20px;
+    padding: 20px; 
+    width: 100px;  
+    background-color: #722e0d;
+}
+
+.price4{
+    margin-top: 60px;
+    margin-left: 700px; 
+    font-size: 10px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #722e0d;
+    border-radius: 20px;
+    padding: 20px; 
+    width: 100px;  
+    background-color: #722e0d;
+}
+
+
+
+
+
+
+h4 { 
+    font-size: 20px;    
+    font-family: fantasy;
+    text-align: center;
+    grid-area: footer; 
+    margin-top: 200px;
+    margin-left: -300px;
+    text-align: center;
+    
+ 
+}
+
+/* padding: 20px 40px 20px 40px; 
+    background-color: #722e0d;*/
