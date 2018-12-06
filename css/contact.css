@@ -82,29 +82,14 @@ label{
     font-size: 20px; 
 }
 
-.fb {
-    margin-top: 100px;
+.social { 
+    margin-top: 80px;
+    }
 
-}
-
-.tw {
-    margin-left: 100px;
-    margin-top: -44px; 
-}
-
-.gm {
-    margin-left: 190px; 
-    margin-top: -27px;
-}
-
-.in {
-    margin-left: 280px; 
-    margin-top: -29px;}
 
 footer p {
-    text-align: center;
+    margin-left: -50px;
     margin-top: 100px; 
-    font-size: 10px;
-    margin-left: -100px; 
+    font-size: 10px; 
     font-family: sans-serif; 
 }
