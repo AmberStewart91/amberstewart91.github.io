@@ -1,7 +1,6 @@
 body{
     background-image: url("../images/eventback-100.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 header{
@@ -48,16 +47,17 @@ nav #current {
     color: black; }
 iframe {
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .gif {
-    margin-left: 700px;
+    margin-left: 750px;
     margin-top: -300px; 
 }
 footer p {
     text-align: center;
-    margin-top: 100px; 
+    margin-top: 200px; 
     font-size: 10px; 
-    font-family: sans-serif; 
+    font-family: sans-serif;
+    color: white;
 }

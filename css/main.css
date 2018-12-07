@@ -65,7 +65,7 @@ h1 {
     font-size: 40px;
     margin-top: -100px; 
     grid-area: head; 
-    grid-row: 1 / 2; grid-column: ; 
+
 }
 
 footer p {

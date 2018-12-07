@@ -1,5 +1,5 @@
 body {
-    background-image:url(../images/contactbac-100.jpg);
+    background-image:url(../images/contactdonut-100.jpg);
     background-repeat: no-repeat; 
 }
 .logo {
@@ -9,7 +9,7 @@ body {
 header {
     text-align: center;
     font-size: 60px; 
-    color: #722e0d;
+    color: white;
     margin-top:-100px;
     
 }
@@ -54,31 +54,32 @@ nav #current {
 
 p {
     text-align: center;
-    margin-left: 500px;
-    margin-top: 100px;
-    color: #722e0d; 
+    margin-left: 650px;
+    position: absolute;
+    color: white; 
 }
 
 fieldset { 
-    border: 5px solid #722e0d; 
+    border: 5px solid; 
     text-align: center; 
     border-width: 40px;
     width: 170px; 
-    height: 250px;
-    background-color: #722e0d;
-    color: gold; 
+    height: 250px; 
     margin-left: 700px; 
     margin-top: -380px;
-    border-color: #722e0d; 
+    border-color: gold;
+    background-color: #722e0d;
     }
 
 legend { 
     font-size: 30px;
-    margin-top: -45px; 
+    color: chocolate; 
+    margin-top: 5px; 
 }
 
 label{
-    font-size: 20px; 
+    font-size: 20px;
+    color: chocolate; 
 }
 
 .social { 
