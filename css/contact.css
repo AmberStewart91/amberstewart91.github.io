@@ -4,6 +4,7 @@ body {
 }
 .logo {
     margin-top: 50px; 
+    margin-left: 50px; 
 }
 header {
     text-align: center;
@@ -47,10 +48,8 @@ header {
 
 nav #current { 
     color: black; }
-
-img {
-   margin-top: -55px; 
-   margin-left: 50px; 
+.googlemap iframe {
+    margin-left: 50px; 
 }
 
 p {
@@ -83,7 +82,7 @@ label{
 }
 
 .social { 
-    margin-top: 80px;
+    margin-top: 50px;
     }
 
 
