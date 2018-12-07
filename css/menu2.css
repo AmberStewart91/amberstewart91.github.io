@@ -1,66 +1,61 @@
+            /*MENU2*/
+
+
 body{
-    background-image:url(../images/coffeebckgrnd-100.jpg); 
-    background-repeat: no-repeat;
-    background-size:contain;
-    }
-
- header { 
+    background-image: url("../images/coffeebckgrnd-100.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    position: absolute;
+}
+header {
+    text-align: center;    
     font-size: 60px; 
-    font-family: sans-serif; 
     color: white; 
-    text-align: center;
-    font-weight: bold;
-    font-style: italic;
-    }
-
+}
 img{ 
     margin-top: -70px;
     margin-left: 900px; 
     }
 
 
-
-.juice{
-    color: white;
-    font-size: 15px; 
-    list-style-type:none;
-    }
-
 .juice h1 { 
+    margin-top: -100px;
+    color: white; 
+    margin-left: 60px;
+    text-decoration: underline;
+}
+
+
+.coffee h1 {
+    color: white; 
+    margin-left:60px;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+.milk h1 { 
     text-decoration: underline; 
-    margin-left: 30px;
+    margin-left: 60px;
     margin-bottom: 5px;
-    font-weight: bold;
     margin-top: 40px;
+    color: white;
+    
     }
 
-
-.juice li {
-    color: black;
-    font-size: 20px;
+#juice li {
+    color: white;
+    font-size: 25px;
     margin-left: 70px;
     text-align: left;
     font-weight: bold;
-    }
-
-
-
-#coffee h1 { 
-    color: white; 
-    text-align: center; 
-    text-decoration: underline;
-    margin-bottom: 5px; 
-    font-weight: bold; 
-    margin-top: -80px; 
-    margin-left: -600px;
-    font-size: 28px; 
+    list-style-type: none;
     }
 
 #coffee li {
-    color: black;
+    color: white;
     text-align: left; 
-    margin-left: 320px; 
-    font-size: 20px; 
+    margin-left: 100px; 
+    font-size: 25px; 
     font-weight: bold;
     list-style-type: none; 
     }
@@ -68,75 +63,119 @@ img{
 #flavor li {
     font-size: 20px;
     color: black; 
-    text-align: left;
-    margin-left: 350px;
-    list-style-type: none; 
+    margin-left: 200px;
+    position: absolute;
+    margin-top: -240px;
+    list-style-type: none;
+    padding-top: 20px;
+    list-style-type: disc;
     }
 
 
-#milk h1{
-    text-align: center; 
-    margin-top: -300px;
-    text-decoration: underline;
-    margin-bottom: 5px;
-    color: white; 
-    font-size: 28px; 
-    }
 
 #milk li{ 
-    font-size: 20px; 
-    color: black; 
-    margin-left: 620px;
+    font-size: 25px; 
+    color:white; 
+    margin-left: 100px;
     font-weight: bold;
     list-style-type: none; 
     }
 
-#price1 li {
+
+            /*DRINK PRICES*/
+
+#prijui li {
     color: white;
-    font-size: 15px; 
-    margin-left: 60px;
-    margin-top: -50px; 
+    font-size: 20px; 
+    margin-left: 400px;
     font-weight: bold;
     list-style-type: none;
      background-color: #722e0d;
-    border-radius: 20px;
-    padding: 10px; 
+    border-radius: 30px;
+    padding: 10px 30px; 
     width: 50px;  
     background-color: #722e0d;
+    position: absolute;
+    margin-top: -420px; 
     }
 
-#price2 li {
+ #prismall li {
     color: white; 
-    font-size: 15px;
-    margin-left: 350px;
-    margin-top: 30px; 
+    font-size: 20px; 
     list-style-type: none;
     font-weight: bold;
-     background-color: #722e0d;
-    border-radius: 20px;
-    padding: 10px; 
+    background-color: #722e0d;
+    border-radius: 30px;
+    padding: 10px 20px; 
     width: 90px;  
     background-color: #722e0d;
-    }
+    margin-left: 400px;
+     position: absolute;
+     margin-top: -270px;
+     
+}
 
-#price3 li{
+ #primed li {
     color: white; 
-    font-size: white; 
-    margin-left: 650px;
-    margin-top: 30px;
-    font-size: 15px; 
+    font-size: 20px; 
+    list-style-type: none;
+    font-weight: bold;
+    background-color: #722e0d;
+    border-radius: 30px;
+    padding: 10px 20px; 
+    width: 90px;  
+    background-color: #722e0d;
+    margin-left: 550px;
+     margin-top: -270px;
+    position: absolute;
+     
+}
+
+ #prilar li {
+    color: white; 
+    font-size: 20px; 
+    list-style-type: none;
+    font-weight: bold;
+    background-color: #722e0d;
+    border-radius: 30px;
+    padding: 10px 20px; 
+    width: 90px;  
+    background-color: #722e0d;
+    margin-left: 700px;
+    margin-top: -270px; 
+    position: absolute;
+
+}
+
+#primil li {
+    color: white;
+    font-size: 20px; 
+    margin-left: 400px;
     font-weight: bold;
     list-style-type: none;
-    background-color: #722e0d;
-    border-radius: 20px;
-    padding: 10px; 
+     background-color: #722e0d;
+    border-radius: 30px;
+    padding: 10px 30px; 
     width: 50px;  
+    background-color: #722e0d;
+    position: absolute;
+    margin-top: -150px;
     }
 
-h2 {
-    font-size: 25px; 
+
+h2{
+    margin-left: 600px;
+    color: white;
+    margin-top: 40px;
+}
+a {
+   float: right; 
+    margin-top: 50px; 
+    font-size: 20px; 
+    color:white; 
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
     color: white; 
-    font-weight: bold; 
-    margin-top: 120px;
-    text-align: center; 
 }

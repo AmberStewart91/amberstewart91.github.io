@@ -7,6 +7,7 @@ body{
 .logo { 
     margin-left: 50px;
     }
+
 header {
     margin-top: -100px; 
     font-size: 60px; 
@@ -69,7 +70,7 @@ h3{
     align-content: center: 
     }
 
-.donuts {
+#donuts {
     font-size: 20px;
     color: chocolate; 
     margin-left: 50px; 
@@ -79,13 +80,12 @@ h3{
     list-style-type: none; 
     }
 
-.D {
-    font-size: 20px;
-    }
 
 
-.fancy { 
-    margin-left: 50px; 
+
+#fancy { 
+    margin-left: 50px;
+    font-size: 20px; 
     color: chocolate;  
     grid-area: main; 
     display: grid; 
@@ -94,14 +94,11 @@ h3{
     }
 
 
-.F {
-    font-size: 20px;
-    }
 
             /*PRICE LIST*/
 
 
-.baker { 
+#baker { 
     margin-top: -400px;
     margin-left: 300px; 
     font-size: 20px; 
@@ -111,7 +108,7 @@ h3{
     text-align: center; 
     }
 
-.regular {
+#regular {
     margin-top: 100px;
     margin-left: 300px;
     margin-bottom: 100px; 
@@ -122,7 +119,7 @@ h3{
     text-align: center; 
     }
 
-.NCY {
+#NCY {
     margin-top: 100px;
     margin-left: 300px;
     margin-bottom: 100px; 
@@ -132,10 +129,9 @@ h3{
     font-family: sans-serif;
     color: black;
     text-align: center;
-
     }
 
-.french {
+#french {
     margin-top: 100px;
     margin-left: 300px; 
     font-size: 20px; 
@@ -145,9 +141,9 @@ h3{
     text-align: center; 
     }
 
-            /*PRICES*/
+            /*DONUT PRICES*/
 
-.price1 {
+#price1 {
     margin-top:-430px;
     margin-bottom: 90px; 
     margin-left: 900px; 
@@ -162,7 +158,7 @@ h3{
     width: 100px; 
 }
 
-.price2 {
+#price2 {
     margin-top: -20px;
     margin-left: 900px; 
     font-size: 20px; 
@@ -177,7 +173,7 @@ h3{
     background-color: #722e0d;
 }
 
-.price3 {
+#price3 {
     margin-top: 65px; 
     margin-left: 900px; 
     font-size: 20px; 
@@ -192,7 +188,7 @@ h3{
     background-color: #722e0d;
 }
 
-.price4{
+#price4{
     margin-top: 70px;
     margin-left: 900px; 
     font-size: 20px; 
@@ -232,154 +228,15 @@ h4 {
 }
 
 
-            /*MENU2*/
-
-
-.menu2 {
-    background-image: url("../images/coffeebckgrnd-100.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 200px; 
+.drinks a {
+    margin-left: 500px; 
+    font-size: 60px;
+    color: #722e0d; 
 }
 
-.menu2 
-    header { 
-    font-size: 60px; 
-    color: white; 
-    text-align: center;
-    font-weight: bold;
-    }
-
-.menu2 img{ 
-    margin-top: -70px;
-    margin-left: 900px; 
-    }
-
-
-
-.menu2 .juice{
-    color: white;
-    font-size: 15px; 
-    list-style-type:none;
-    }
-
-.menu2 .juice h1 { 
-    text-decoration: underline; 
-    margin-left: 30px;
-    margin-bottom: 5px;
-    font-weight: bold;
-    margin-top: 40px;
-    }
-
-
-.menu2 .juice li {
-    color: black;
-    font-size: 20px;
-    margin-left: 70px;
-    text-align: left;
-    font-weight: bold;
-    }
-
-
-
-.menu2 #coffee h1 { 
-    color: white; 
-    text-align: center; 
-    text-decoration: underline;
-    margin-bottom: 5px; 
-    font-weight: bold; 
-    margin-top: -80px; 
-    margin-left: -600px;
-    font-size: 28px; 
-    }
-
-.menu2 #coffee li {
-    color: black;
-    text-align: left; 
-    margin-left: 320px; 
-    font-size: 20px; 
-    font-weight: bold;
-    list-style-type: none; 
-    }
-
-.menu2 #flavor li {
-    font-size: 20px;
-    color: black; 
-    text-align: left;
-    margin-left: 350px;
-    list-style-type: none; 
-    }
-
-
-.menu2 #milk h1{
-    text-align: center; 
-    margin-top: -300px;
-    text-decoration: underline;
-    margin-bottom: 5px;
-    color: white; 
-    font-size: 28px; 
-    }
-
-.menu2 #milk li{ 
-    font-size: 20px; 
-    color: black; 
-    margin-left: 600px;
-    font-weight: bold;
-    list-style-type: none; 
-    }
-
-.menu2 #price1 li {
-    color: white;
-    font-size: 15px; 
-    margin-left: 60px;
-    margin-top: -50px; 
-    font-weight: bold;
-    list-style-type: none;
-     background-color: #722e0d;
-    border-radius: 20px;
-    padding: 10px; 
-    width: 50px;  
-    background-color: #722e0d;
-    }
-
-.menu2 #price2 li {
-    color: white; 
-    font-size: 15px;
-    margin-left: 350px;
-    margin-top: 30px; 
-    list-style-type: none;
-    font-weight: bold;
-     background-color: #722e0d;
-    border-radius: 20px;
-    padding: 10px; 
-    width: 90px;  
-    background-color: #722e0d;
-    }
-
-.menu2 #price3 li{
-    color: white; 
-    font-size: white; 
-    margin-left: 650px;
-    margin-top: 30px;
-    font-size: 15px; 
-    font-weight: bold;
-    list-style-type: none;
-    background-color: #722e0d;
-    border-radius: 20px;
-    padding: 10px; 
-    width: 50px;  
-    }
-
-.menu2 h2 {
-    font-size: 25px; 
-    color: white; 
-    font-weight: bold; 
-    margin-top: 120px;
-    text-align: center; 
-}
 footer p {
     text-align: center;
-    margin-top: 100px; 
+    margin-top: 10px; 
     font-size: 10px; 
     font-family: sans-serif; 
 }

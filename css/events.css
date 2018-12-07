@@ -46,10 +46,11 @@ header{
     }
 nav #current { 
     color: black; }
-.youtube {
+iframe {
     margin-top: 50px;
-    margin-left: 50px; 
+    margin-left: 50px;
 }
+
 .gif {
     margin-left: 700px;
     margin-top: -300px; 
