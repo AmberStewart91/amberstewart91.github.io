@@ -1,19 +1,17 @@
-body {
-    background-color: #722e0d;
+body{
+    background-image: url("../images/eventback-100.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header{
+    font-size: 60px; 
     text-align: center;
-    color: gold; 
-    font-size: 60px;
     margin-top:-100px;
+    color: white; 
 }
-.logo {
+.logo{
     margin-left: 50px; 
-}
-.display {
-    padding-top: 50px; 
-    
 }
 .image {
     background-image: url("../images/menuop.png");
@@ -48,36 +46,17 @@ header{
     }
 nav #current { 
     color: black; }
-
-h3{
-    margin-left: 500px;
-    margin-top: -450px;
-    margin-bottom: 20px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
+.youtube {
+    margin-top: 50px;
+    margin-left: 50px; 
 }
-
-.fact{
-    text-align: center;
-    margin-left: 500px; 
-    color: white; 
-    font-size: 15px; 
+.gif {
+    margin-left: 700px;
+    margin-top: -300px; 
 }
-
-h2{
-    font-size: 20px; 
-    color: gold; 
-    margin-left: 650px;
-    font-style: italic; 
-}
-
-
-
-.foot p {
+footer p {
     text-align: center;
-    margin-top: 200px; 
+    margin-top: 100px; 
     font-size: 10px; 
     font-family: sans-serif; 
-    margin-left: -50px; 
 }
